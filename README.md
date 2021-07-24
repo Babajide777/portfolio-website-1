@@ -1,8 +1,6 @@
 ## Personal Portfolio
 
-### [Live Site](https://60d1d9451007015a784c99c4--epic-wozniak-1bac8a.netlify.app/)
-
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+### [Live Site](https://babajide-portfolio.netlify.app/)
 
 Oyafemi Babajide's portfolio website
 

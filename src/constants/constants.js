@@ -1,12 +1,12 @@
 export const projects = [
   {
-    title: "MERN Memories",
+    title: "Frontend developer website",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "VanillaJs and Bootstrap 5 was used to build this web app for people who want to learn frontend web development.",
+    image: "/images/front.png",
+    tags: ["VanillaJs", "Bootstrap"],
+    source: "https://jide-frontend-bootstrap.netlify.app/",
+    visit: "https://github.com/Babajide777/BOOTSTRAP-BOOTCAMP-WEBSITE",
     id: 0,
   },
   {
@@ -33,6 +33,7 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2020, text: "Started my Web development journey" },
-  { year: 2021, text: "Completed Coding bootcamp" },
+  { year: 2021, text: "Completed EdConnect bootcamp" },
+  { year: 2021, text: "Completed FreeCodeCamp Responsive Web Design" },
   { year: 2021, text: "Worked as a freelance developer" },
 ];

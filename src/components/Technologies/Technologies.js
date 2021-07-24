@@ -19,9 +19,9 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I am conversant with a range of JavaScript and CSS libraries and framework
-      used in the web development world such React, Express, Node, BootStrap,
-      Material UI, JQuery, and lots more.
+      I am conversant with a range of JavaScript and TypeScript frontend,
+      backend and CSS libraries and framework used in web development world such
+      React, Express, Node, BootStrap, Material UI, JQuery, and lots more.
     </SectionText>
     <List>
       <ListItem>
