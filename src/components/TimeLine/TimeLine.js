@@ -69,8 +69,8 @@ const Timeline = () => {
       <SectionText>
         I am a web developer and technical writer who uses MERN stack and other
         modern web technologies to create top-notch websites, webApps, and other
-        web solutions. I am particularly interested in stratups and small scale
-        businesses as I have alot of experience working in this niche.
+        web solutions. I am particularly interested in start-up and small scale
+        businesses as I have a lot of experience working in this niche.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

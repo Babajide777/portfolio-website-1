@@ -20,8 +20,9 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I am conversant with a range of JavaScript and TypeScript frontend,
-      backend and CSS libraries and framework used in web development world such
-      React, Express, Node, BootStrap, Material UI, JQuery, and lots more.
+      backend and CSS libraries and frameworks used in building web solutions
+      such as React, Express, Node, BootStrap, Material UI, JQuery, and lots
+      more.
     </SectionText>
     <List>
       <ListItem>
