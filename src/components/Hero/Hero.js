@@ -17,8 +17,8 @@ const Hero = () => (
           Oyafemi Babajide's Portfolio
         </SectionTitle>
         <SectionText>
-          I am a fullstack web developer and technical writer who ensure he
-          always delivers top-notch webApps
+          I am a fullstack web developer and technical writer who builds
+          top-notch webApps
         </SectionText>
         <Button
           onClick={() =>
