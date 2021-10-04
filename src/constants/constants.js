@@ -3,7 +3,7 @@ export const projects = [
     title: "Frontend developer website",
     description:
       "VanillaJs and Bootstrap 5 was used to build this web app for people who want to learn frontend web development.",
-    image: "/images/front.png",
+    image: "/images/front.PNG",
     tags: ["VanillaJs", "Bootstrap"],
     source: "https://jide-frontend-bootstrap.netlify.app/",
     visit: "https://github.com/Babajide777/BOOTSTRAP-BOOTCAMP-WEBSITE",
@@ -16,17 +16,17 @@ export const projects = [
     image: "/images/explorer.png",
     tags: ["MongoDB", "Express", "React", "Node"],
     source: "https://jide-explorer.herokuapp.com/",
-    visit: "https://github.com/Babajide777/edconnect-weekly/tree/capstone",
+    visit: "https://github.com/Babajide777/project-explorer",
     id: 1,
   },
   {
     title: "E-Commerce",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: "/images/2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "This is a fully functional ECommerce website with cart, payment, search, emailing, and Admin section all working properly. The Repo is private as the application is for a client.",
+    image: "/images/kingJesus.PNG",
+    tags: ["JavaScript", "MongoDB", "Express", "Node", "Flutterwave"],
+    source: "https://kingjesus-ecommerce.herokuapp.com/",
+    visit: "#",
     id: 2,
   },
 ];
@@ -34,6 +34,5 @@ export const projects = [
 export const TimeLineData = [
   { year: 2020, text: "Started my Web development journey" },
   { year: 2021, text: "Completed EdConnect bootcamp" },
-  { year: 2021, text: "Completed FreeCodeCamp Responsive Web Design" },
   { year: 2021, text: "Worked as a freelance developer" },
 ];

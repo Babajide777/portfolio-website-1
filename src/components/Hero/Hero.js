@@ -18,7 +18,7 @@ const Hero = () => (
         </SectionTitle>
         <SectionText>
           I am a fullstack web developer and technical writer who builds
-          top-notch webApps
+          top-notch scalable Web Applications.
         </SectionText>
         <Button
           onClick={() =>
