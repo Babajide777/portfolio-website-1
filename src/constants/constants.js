@@ -39,10 +39,19 @@ export const projects = [
     visit: "#",
     id: 3,
   },
+  {
+    title: "Eventis",
+    description: "Landing page for an upcoming video sharing website",
+    image: "/images/eventis.jpg",
+    tags: ["CSS3", "HTML5"],
+    source: "https://www.eventis.me/",
+    visit: "#",
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
   { year: 2020, text: "Started my Web development journey" },
   { year: 2021, text: "Completed EdConnect bootcamp" },
-  { year: 2021, text: "Worked as a freelance developer" },
+  { year: 2021, text: "Worked as a freelance fullstack developer" },
 ];
