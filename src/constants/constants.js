@@ -74,12 +74,21 @@ export const projects = [
     tags: ["NextJs", "TypeScript", "ChakraUI", "StyledComponents"],
     source: "https://ever.co/",
     visit: "#",
-    id: 6,
+    id: 7,
+  },
+  {
+    title: "Tae lolu Website",
+    description: "I built this fullstack app for an import-export company",
+    image: "/images/tae-lolu.jpg",
+    tags: ["NextJs", "TypeScript", "nodemailer", "StyledComponents"],
+    source: "https://www.taelolu.com/",
+    visit: "#",
+    id: 8,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: "Started my Web development journey" },
+  { year: 2019, text: "Started my Web development journey" },
   { year: 2021, text: "Completed EdConnect bootcamp" },
   {
     year: 2021,
