@@ -85,6 +85,32 @@ export const projects = [
     visit: "#",
     id: 8,
   },
+  {
+    title: "Togao Consults Website",
+    description:
+      "I built this fullstack app for an insurance consultancy company",
+    image: "/images/togao.png",
+    tags: ["NextJs", "TypeScript", "tailwindCSS"],
+    source: "https://www.togaoconsults.com/",
+    visit: "#",
+    id: 9,
+  },
+  {
+    title: "Assured Aim FX Web App",
+    description: "I built this fullstack app for a forex company",
+    image: "/images/assured.png",
+    tags: [
+      "NextJs",
+      "ExpressJS",
+      "NodeJS",
+      "ReduxToolkit",
+      "MongoDB",
+      "StyledComponents",
+    ],
+    source: "https://www.assuredaimforex.com/",
+    visit: "#",
+    id: 10,
+  },
 ];
 
 export const TimeLineData = [
