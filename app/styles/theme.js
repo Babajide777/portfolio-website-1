@@ -1,7 +1,9 @@
-import { ThemeProvider } from 'styled-components';
+"use client";
+
+import { ThemeProvider } from "styled-components";
 
 import theme from "../themes/default";
-import GlobalStyles from './globals';
+import GlobalStyles from "./globals";
 
 const Theme = ({ children }) => (
   <ThemeProvider theme={theme}>
