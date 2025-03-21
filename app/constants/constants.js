@@ -1,5 +1,72 @@
 export const projects = [
   {
+    title: "Kinderly web app",
+    description: "Your Personal AI Assistant - Always Ready, Always Reliable.",
+    image: "/images/kinderly.png",
+    tags: [
+      "NextJs",
+      "Material UI",
+      "SwiperJS",
+      "PostgreSQL",
+      "GraphQL",
+      "NestJS",
+      "Prisma",
+      "Firebase",
+      "TypeScript",
+    ],
+    source: "https://dev.kinderly.io/",
+    visit: "#",
+  },
+  {
+    title: "EvenFare Rider app",
+    description: "Ride with Ease, Drive with Confidence",
+    image: "/images/evenfare.png",
+    tags: [
+      "MongoDB",
+      "Mongoose",
+      "TypeScript",
+      "Firebase",
+      "Cloudinary",
+      "NestJS",
+    ],
+    source: "https://evenfare.com.ng",
+    visit: "#",
+  },
+  {
+    title: "RetailCraft web app",
+    description:
+      "A point of sale retail platform where businesses and stores can set up their profiles, users, products, and make sales.",
+    image: "/images/retailcraft.png",
+    tags: ["MySQL", "MySQL Workbench", "NestJS", "AWS", "Drizzleorm"],
+    source: "https://retailcraft.com.ng/login",
+    visit: "#",
+  },
+  {
+    title: "Genswift web app",
+    description:
+      "Gensift is an enterprise we application built for a pharmaceutical company, which they can use to manage their staff, clients, and others. It has messaging, memo, notification, and other features.",
+    image: "/images/genswift.png",
+    tags: [
+      "MySQL",
+      "MySQL Workbench",
+      "NextJS",
+      "ExpressJs",
+      "Drizzleorm",
+      "NextJs",
+    ],
+    source: "https://app.genswift.com",
+    visit: "#",
+  },
+  {
+    title: "Baby and stuff eCommerce Website",
+    description:
+      "Babies n stuffs is an e-commerce platform where users can purchase baby-related products.",
+    image: "/images/babiesnstuffs.png",
+    tags: ["NextJs", "Styled Components", "SwiperJS", "NodeJs"],
+    source: "https://babiesnstuffs.com",
+    visit: "#",
+  },
+  {
     title: "Animal Hospital Website",
     description:
       "This is a website for a vetinary clinic that specialize in cats",
@@ -7,7 +74,6 @@ export const projects = [
     tags: ["NextJs", "Styled Components", "SwiperJS", "NodeJs"],
     source: "https://babajide-omar-animal-hospital.netlify.app/",
     visit: "#",
-    id: 0,
   },
   {
     title: "Project Explorer API",
@@ -17,7 +83,6 @@ export const projects = [
     tags: ["MongoDB", "Express", "Passport", "Node"],
     source: "https://jide-explorer.herokuapp.com",
     visit: "https://github.com/Babajide777/project-explorer",
-    id: 1,
   },
   {
     title: "Project Explorer Client",
@@ -27,7 +92,6 @@ export const projects = [
     tags: ["React", "Node", "Bootstrap", "React-Bootstrap"],
     source: "https://babajide-project-explorer.netlify.app",
     visit: "https://github.com/Babajide777/project-explorer-client",
-    id: 2,
   },
   {
     title: "King Jesus E-Commerce",
@@ -37,7 +101,6 @@ export const projects = [
     tags: ["JavaScript", "MongoDB", "Express", "Node", "Flutterwave"],
     source: "https://kingjesus-ecommerce.herokuapp.com/",
     visit: "#",
-    id: 3,
   },
   {
     title: "King Jesus E-Commerce Admin",
@@ -46,7 +109,6 @@ export const projects = [
     tags: ["JavaScript", "MongoDB", "Express", "Node", "Flutterwave"],
     source: "https://kingjesus-ecommerce.herokuapp.com/admin",
     visit: "#",
-    id: 4,
   },
   {
     title: "Eventis",
@@ -55,7 +117,6 @@ export const projects = [
     tags: ["CSS3", "HTML5"],
     source: "https://www.eventis.me/",
     visit: "#",
-    id: 5,
   },
   {
     title: "Ever Tech",
@@ -65,7 +126,6 @@ export const projects = [
     tags: ["NextJs", "TypeScript", "ChakraUI", "StyledComponents"],
     source: "https://services.ever.co/",
     visit: "#",
-    id: 6,
   },
   {
     title: "Ever Website",
@@ -74,7 +134,6 @@ export const projects = [
     tags: ["NextJs", "TypeScript", "ChakraUI", "StyledComponents"],
     source: "https://ever.co/",
     visit: "#",
-    id: 7,
   },
   {
     title: "Tae lolu Website",
@@ -83,7 +142,6 @@ export const projects = [
     tags: ["NextJs", "TypeScript", "nodemailer", "StyledComponents"],
     source: "https://www.taelolu.com/",
     visit: "#",
-    id: 8,
   },
   {
     title: "Togao Consults Website",
@@ -93,7 +151,6 @@ export const projects = [
     tags: ["NextJs", "TypeScript", "tailwindCSS"],
     source: "https://www.togaoconsults.com/",
     visit: "#",
-    id: 9,
   },
   {
     title: "Assured Aim FX Web App",
@@ -109,7 +166,6 @@ export const projects = [
     ],
     source: "https://www.assuredaimforex.com/",
     visit: "#",
-    id: 10,
   },
 ];
 
