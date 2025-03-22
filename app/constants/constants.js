@@ -67,58 +67,6 @@ export const projects = [
     visit: "#",
   },
   {
-    title: "Animal Hospital Website",
-    description:
-      "This is a website for a vetinary clinic that specialize in cats",
-    image: "/images/cat-vet.jpg",
-    tags: ["NextJs", "Styled Components", "SwiperJS", "NodeJs"],
-    source: "https://babajide-omar-animal-hospital.netlify.app/",
-    visit: "#",
-  },
-  {
-    title: "Project Explorer API",
-    description:
-      "The backend of the Project Explorer project, repository for final year students to submit projects and search projects submitted by others to learn from. Students can signup or login via the regular signup/login procedures, or do so via Facebook or Google.",
-    image: "/images/explorer-backend.jpg",
-    tags: ["MongoDB", "Express", "Passport", "Node"],
-    source: "https://jide-explorer.herokuapp.com",
-    visit: "https://github.com/Babajide777/project-explorer",
-  },
-  {
-    title: "Project Explorer Client",
-    description:
-      "The frontend of the Project Explorer project, a repository for final year students to submit projects and search projects submitted by others to learn from. Students can signup or login via the regular signup/login procedures, or do so via Facebook or Google.",
-    image: "/images/explorer.jpg",
-    tags: ["React", "Node", "Bootstrap", "React-Bootstrap"],
-    source: "https://babajide-project-explorer.netlify.app",
-    visit: "https://github.com/Babajide777/project-explorer-client",
-  },
-  {
-    title: "King Jesus E-Commerce",
-    description:
-      "This is a fully functional ECommerce website with cart, payment, search, emailing, and Admin section all working properly. The Repo is private as the application is for a client.",
-    image: "/images/kingJesus.PNG",
-    tags: ["JavaScript", "MongoDB", "Express", "Node", "Flutterwave"],
-    source: "https://kingjesus-ecommerce.herokuapp.com/",
-    visit: "#",
-  },
-  {
-    title: "King Jesus E-Commerce Admin",
-    description: "Admin Section for king Jesus E-Commerce website",
-    image: "/images/king-admin.jpg",
-    tags: ["JavaScript", "MongoDB", "Express", "Node", "Flutterwave"],
-    source: "https://kingjesus-ecommerce.herokuapp.com/admin",
-    visit: "#",
-  },
-  {
-    title: "Eventis",
-    description: "Landing page for an upcoming video sharing website",
-    image: "/images/eventis.jpg",
-    tags: ["CSS3", "HTML5"],
-    source: "https://www.eventis.me/",
-    visit: "#",
-  },
-  {
     title: "Ever Tech",
     description:
       "I was part of the team that built the Ever Tech website from scratch",
