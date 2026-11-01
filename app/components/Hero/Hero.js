@@ -15,20 +15,23 @@ const Hero = () => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          Oyafemi Babajide's Portfolio
+          Babajide Oyafemi <br />
+          Backend, Full-Stack &amp; AI Engineer
         </SectionTitle>
         <SectionText>
-          I am a fullstack web developer and technical writer who builds
-          top-notch scalable Web Applications.
+          I build production SaaS platforms and bring large language models
+          into live business workflows. 7+ years across Node.js, TypeScript,
+          Python and React, currently leading development of healthcare
+          platforms serving 5,000+ users. MSc Applied Artificial Intelligence,
+          University of Chester.
         </SectionText>
         <Button
           onClick={() =>
             (window.location =
-              "https://www.upwork.com/freelancers/~01efcad1f672850cd8")
+              "https://www.linkedin.com/in/babajide-oyafemi/")
           }
         >
-          Learn More
+          View LinkedIn
         </Button>
       </LeftSection>
     </Section>
