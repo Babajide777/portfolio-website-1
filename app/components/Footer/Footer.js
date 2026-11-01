@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -22,16 +22,16 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+2347063900161">+2348119485607</LinkItem>
+          <LinkItem href="tel:+447440737057">+44 7440 737057</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="j.oyafemi@gmail.com">j.oyafemi@gmail.com</LinkItem>
+          <LinkItem href="mailto:j.oyafemi@gmail.com">j.oyafemi@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>Building scalable systems and AI-powered products</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/Babajide777">
@@ -41,7 +41,7 @@ const Footer = () => {
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
           <SocialIcons href="http://twitter.com/jid_BOSS">
-            <AiFillInstagram size="3rem" />
+            <AiOutlineTwitter size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
