@@ -69,10 +69,13 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a web developer and technical writer who uses MERN stack and other
-        modern web technologies to create top-notch websites, webApps, and other
-        web solutions. I am particularly interested in start-up and small scale
-        businesses as I have a lot of experience working in this niche.
+        I am a backend and full-stack engineer with 7+ years building production
+        SaaS platforms. I have led backend teams, owned architecture from
+        scratch on enterprise products, and mentored junior developers, and I
+        own infrastructure and CI/CD rather than handing deployment to someone
+        else. My recent work integrates large language models into live
+        customer workflows. Based in Bradford, UK, and open to backend,
+        full-stack and AI engineering roles.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
