@@ -40,6 +40,11 @@ const Header = () => (
           <NavLink as="span">About</NavLink>
         </Link>
       </li>
+      <li>
+        <a href="mailto:j.oyafemi@gmail.com">
+          <NavLink as="span">Contact</NavLink>
+        </a>
+      </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/Babajide777">
