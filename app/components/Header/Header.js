@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
 
 import {
@@ -21,7 +21,7 @@ const Header = () => (
         href="/"
         style={{ display: "flex", alignItems: "center", color: "white" }}
       >
-        <DiCssdeck size="3rem" /> <span>Portfolio</span>
+        <DiCssdeck size="3rem" /> <span>Babajide Oyafemi</span>
       </Link>
     </Div1>
     <Div2>
@@ -49,7 +49,7 @@ const Header = () => (
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons href="http://twitter.com/jid_BOSS">
-        <AiFillInstagram size="3rem" />
+        <AiOutlineTwitter size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
