@@ -25,14 +25,35 @@ const Hero = () => (
           platforms serving 5,000+ users. MSc Applied Artificial Intelligence,
           University of Chester.
         </SectionText>
-        <Button
-          onClick={() =>
-            (window.location =
-              "https://www.linkedin.com/in/babajide-oyafemi/")
-          }
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "16px",
+            alignItems: "flex-start",
+          }}
         >
-          View LinkedIn
-        </Button>
+          <Button
+            onClick={() => {
+              const a = document.createElement("a");
+              a.href = "/Babajide_Oyafemi_CV.pdf";
+              a.download = "Babajide_Oyafemi_CV.pdf";
+              document.body.appendChild(a);
+              a.click();
+              a.remove();
+            }}
+          >
+            Download CV
+          </Button>
+          <Button
+            onClick={() =>
+              (window.location =
+                "mailto:j.oyafemi@gmail.com?subject=Hello%20Babajide")
+            }
+          >
+            Contact Me
+          </Button>
+        </div>
       </LeftSection>
     </Section>
   </>
