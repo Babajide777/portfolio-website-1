@@ -81,38 +81,6 @@ export const projects = [
     live: "https://ever.co/",
     code: null,
   },
-  {
-    title: "Ever Tech Website",
-    description: "Part of the team that built the Ever Tech services website from scratch.",
-    image: "/images/ever-tech.png",
-    tags: ["Next.js", "TypeScript", "Chakra UI", "Styled Components"],
-    live: null,
-    code: null,
-  },
-  {
-    title: "Tae Lolu Website",
-    description: "Full-stack website for an import-export company (freelance).",
-    image: "/images/tae-lolu.jpg",
-    tags: ["Next.js", "TypeScript", "Nodemailer", "Styled Components"],
-    live: null,
-    code: null,
-  },
-  {
-    title: "Togao Consults Website",
-    description: "Full-stack website for an insurance consultancy (freelance).",
-    image: "/images/togao.png",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    live: null,
-    code: null,
-  },
-  {
-    title: "Assured Aim FX Web App",
-    description: "Full-stack web app for a forex company (freelance).",
-    image: "/images/assured.png",
-    tags: ["Next.js", "Express.js", "Node.js", "Redux Toolkit", "MongoDB"],
-    live: null,
-    code: null,
-  },
 ];
 
 export const TimeLineData = [
