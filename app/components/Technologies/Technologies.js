@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiNodejsSmall, DiPython, DiReact } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -21,12 +21,23 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I am conversant with a range of JavaScript and TypeScript frontend,
-      backend and CSS libraries and frameworks used in building web solutions
-      such as React, Express, Node, BootStrap, Material UI, JQuery, and lots
-      more.
+      I work across TypeScript, JavaScript, Python and PHP, with hands-on
+      ownership of infrastructure and CI/CD on AWS, Digital Ocean and Docker,
+      using GitHub Actions pipelines.
     </SectionText>
     <List>
+      <ListItem>
+        <picture>
+          <DiNodejsSmall size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Node.js, NestJS, Express, Django, Laravel; REST, GraphQL,
+            WebSockets; PostgreSQL, MySQL, MongoDB, Redis
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <picture>
           <DiReact size="3rem" />
@@ -34,32 +45,20 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            ReactJs, VanillaJS, and JQuery
+            React, Next.js, Vue, React Native; Redux Toolkit, TanStack Query,
+            TailwindCSS, Material UI
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <DiPython size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>AI</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            LLM integration into production workflows, OpenAI APIs, HuggingFace
+            Transformers, PyTorch, reinforcement learning
           </ListParagraph>
         </ListContainer>
       </ListItem>
